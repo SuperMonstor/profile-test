@@ -47,7 +47,7 @@ export default function Page() {
         work
         {` as a Program Manager at `}
         <span className="not-prose">
-          <Badge href="https://amazon.in">
+          <Badge href="https://www.linkedin.com/in/shibani-s-83815a1b1/">
             <Image
               alt="amazon logo"
               width="13"
@@ -147,7 +147,7 @@ export default function Page() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="/"
+            href="https://tally.so/r/3E1Mvo"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">get email updates</p>
