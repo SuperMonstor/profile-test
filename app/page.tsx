@@ -61,7 +61,7 @@ export default function Page() {
         </span>
         .
       </p>
-      <div className="grid grid-cols-2 grid-rows-4 sm:grid-rows-3 sm:grid-cols-3 gap-4 my-8">
+      {/* <div className="grid grid-cols-1 grid-rows-1 sm:grid-rows-1 sm:grid-cols-3 gap-4 my-8">
         <div className="relative h-40">
           <Image
             alt="Me speaking on stage at React Summit about the future of Next.js"
@@ -122,6 +122,18 @@ export default function Page() {
             className="rounded-lg object-cover"
           />
         </div>
+      </div> */}
+
+      <div className="relative center py-10">
+        <Image
+          alt="breathing exercise with my fitness group"
+          src={breathing}
+          layout="fixed"
+          height={400}
+          width={600} // adjust this according to your needs
+          priority
+          className="rounded-lg object-cover"
+        />
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
